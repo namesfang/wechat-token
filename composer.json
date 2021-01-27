@@ -1,0 +1,34 @@
+{
+	"name" : "namesfang/wechat-token",
+	"description" : "微信公众号、小程序、开放平台获取AccessToken",
+	"type" : "library",
+	"version" : "1.0.0",
+	"keywords" : [
+		"公众号",
+		"小程序",
+		"AccessToken"
+	],
+	"homepage" : "https://github.com/namesfang/wechat-token",
+	"authors" : [{
+			"name" : "堪笑",
+			"email" : "jixiang.f@gmail.com",
+			"role" : "Developer",
+			"homepage" : "http://cli.life"
+		}
+	],
+	"require" : {
+		"php" : ">=7.2"
+	},
+	"support" : {
+		"email" : "jixiang.f@gmail.com",
+		"issues" : "https://github.com/namesfang/wechat-token/issues",
+		"wiki" : "https://github.com/namesfang/wechat-token/wiki"
+	},
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Namesfang\\WeChat\\Token\\" : "src"
+		}
+	},
+	"minimum-stability" : "stable"
+}
