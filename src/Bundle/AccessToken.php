@@ -12,6 +12,10 @@ use Namesfang\WeChat\Token\Request;
 
 class AccessToken extends Bundle
 {
+    /**
+     * 获取token
+     * @return \Namesfang\WeChat\Token\Response
+     */
     public function request()
     {
         $data = $this->option->getAll();
